@@ -68,13 +68,13 @@ class Assets {
             ],
             'wpvk-admin' => [
                 'src'       => WPVK_PLUGIN_URL . '/assets/js/admin.js',
-                'deps'      => [ 'wpvk-vender' ],
+                'deps'      => [ 'wpvk-vendor' ],
                 'version'   => \filemtime( WPVK_PLUGIN_PATH . '/assets/js/admin.js' ),
                 'in_footer' => true
             ],
             'wpvk-frontend' => [
                 'src'       => WPVK_PLUGIN_URL . '/assets/js/frontend.js',
-                'deps'      => [ 'jquery', 'wpvk-vender' ],
+                'deps'      => [ 'jquery', 'wpvk-vendor' ],
                 'version'   => \filemtime( WPVK_PLUGIN_PATH . '/assets/js/frontend.js' ),
                 'in_footer' => true
             ],
