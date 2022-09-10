@@ -75,7 +75,7 @@ class Admin {
      * @since 1.0.0
      */
     public function init_hooks() {
-        add_action( 'admin_enqueu_scripts', [ $this, 'enqueue_scripts' ] );
+        add_action( 'admin_enqueue_scripts', [ $this, 'enqueue_scripts' ] );
     }
 
     /**
